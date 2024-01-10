@@ -4,9 +4,29 @@
   переключая тему
 */
 
+:root.theme-dark {
+  --backgroundColorDark: #000028;
+  --backgroundAccentColorDark: #ff0070;
+  --textAccentColorDark: #000028;
+  --accentColorDark: #ff0070;
+  --titleColorDark: #db00ff;
+  --fontColorDark: #f1b2ce;
+  --backgroundImageDark: url('../images/cover-image-dark.png');
+  --borderHoverDark: rgba(255, 0, 112, 0.4);
+  --recVisibilityDark: visible;
+}
+
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --backgroundColor: var(--backgroundColorDark, #000028);
+  --backgroundAccentColor: var(--backgroundAccentColorDark, #ff0070);
+  --textAccentColor: var(--textAccentColorDark, #000028);
+  --accentColor: var(--accentColorDark, #ff0070);
+  --titleColor: var(--titleColorDark, #db00ff);
+  --fontColor: var(--fontColorDark, #f1b2ce);
+  --backgroundImage: var(
+    --backgroundImageDark,
+    url('../images/cover-image-dark.png')
+  );
+  --borderHover: var(--borderHoverDark, rgba(255, 0, 112, 0.4));
+  --recVisibility: var(--recVisibilityDark, visible);
 }
