@@ -135,7 +135,6 @@
 .header__text {
   align-self: end;
   margin-block-start: 60px;
-  max-inline-size: 355px;
 }
 
 /* Основной контент */
