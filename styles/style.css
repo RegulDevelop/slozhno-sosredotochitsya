@@ -17,7 +17,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  min-block-size: 668px;
+  min-block-size: 100vh;
   padding: 10px;
 }
 
@@ -185,7 +185,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 668px;
+  min-block-size: 100vh;
 }
 
 .footer__title {
@@ -247,11 +247,6 @@
 @media (width >= 768px) {
   .header {
     padding: 20px 20px 20px 0;
-    min-block-size: 1024px;
-  }
-
-  .footer {
-    min-block-size: 1024px;
   }
 
   .decorated-zone::before {
@@ -343,14 +338,6 @@
 }
 
 @media (width >= 1024px) {
-  .header {
-    min-block-size: 768px;
-  }
-
-  .footer {
-    min-block-size: 768px;
-  }
-
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
