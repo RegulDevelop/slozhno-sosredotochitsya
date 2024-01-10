@@ -30,3 +30,17 @@
   --borderHover: var(--borderHoverLight, rgba(50, 49, 45, 0.4));
   --recVisibility: var(--recVisibilityLight, hidden);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgroundColorlight: #fff1f7;
+    --backgroundAccentColorLight: #ff8dcb;
+    --textAccentColorLight: #353430;
+    --accentColorlight: #353430;
+    --titleColorlight: #ffc2e6;
+    --fontColorlight: #353430;
+    --backgroundImageLight: url('../images/cover-image-light.png');
+    --borderHoverLight: rgba(50, 49, 45, 0.4);
+    --recVisibilityLight: hidden;
+  }
+}
