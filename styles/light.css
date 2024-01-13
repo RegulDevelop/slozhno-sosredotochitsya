@@ -4,43 +4,28 @@
   переключая тему
 */
 
-:root.theme_light {
-  --backgroundColorlight: #fff1f7;
-  --backgroundAccentColorLight: #ff8dcb;
-  --textAccentColorLight: #353430;
-  --accentColorlight: #353430;
-  --titleColorlight: #ffc2e6;
-  --fontColorlight: #353430;
-  --backgroundImageLight: url('../images/cover-image-light.png');
-  --borderHoverLight: rgba(50, 49, 45, 0.4);
-  --recVisibilityLight: hidden;
-}
-
 .page.theme_light {
-  --backgroundColor: var(--backgroundColorlight, #fff1f7);
-  --backgroundAccentColor: var(--backgroundAccentColorLight, #ff8dcb);
-  --textAccentColor: var(--textAccentColorLight, #353430);
-  --accentColor: var(--accentColorlight, #353430);
-  --titleColor: var(--titleColorlight, #ffc2e6);
-  --fontColor: var(--fontColorlight, #353430);
-  --backgroundImage: var(
-    --backgroundImageLight,
-    url('../images/cover-image-light.png')
-  );
-  --borderHover: var(--borderHoverLight, rgba(50, 49, 45, 0.4));
-  --recVisibility: var(--recVisibilityLight, hidden);
+  --backgroundColor: #fff1f7;
+  --backgroundAccentColor: #ff8dcb;
+  --textAccentColor: #353430;
+  --accentColor: #353430;
+  --titleColor: #ffc2e6;
+  --fontColor: #353430;
+  --backgroundImage: url('../images/cover-image-light.png');
+  --borderHover: rgba(50, 49, 45, 0.4);
+  --recVisibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --backgroundColorlight: #fff1f7;
-    --backgroundAccentColorLight: #ff8dcb;
-    --textAccentColorLight: #353430;
-    --accentColorlight: #353430;
-    --titleColorlight: #ffc2e6;
-    --fontColorlight: #353430;
-    --backgroundImageLight: url('../images/cover-image-light.png');
-    --borderHoverLight: rgba(50, 49, 45, 0.4);
-    --recVisibilityLight: hidden;
+    --backgroundColor: #fff1f7;
+    --backgroundAccentColor: #ff8dcb;
+    --textAccentColor: #353430;
+    --accentColor: #353430;
+    --titleColor: #ffc2e6;
+    --fontColor: #353430;
+    --backgroundImage: url('../images/cover-image-light.png');
+    --borderHover: rgba(50, 49, 45, 0.4);
+    --recVisibility: hidden;
   }
 }

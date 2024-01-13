@@ -14,6 +14,13 @@
   --titleColor: #db00ff;
   /* Цвет текста с описанием в карточках */
   --fontColor: #f1b2ce;
+  /* Изображение фона заголовка сайта */
+  --backgroundImage: url('../images/cover-image.png');
+  /* Цвет рамки кнопки при навидении */
+  --borderHover: rgba(255, 0, 112, 0.4);
+  /* Убирает, добавляет надпись REC */
+  --recVisibility: visible;
+
   /* Стиль шрифта сайта */
   --fontFamily: 'IBM Plex Mono';
   /* Размер шрифта сайта */
@@ -21,10 +28,4 @@
   /* Расчет размера шрифта под заголок сайта(для ПК и мобильных) */
   --titleFontSizeMobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --titleFontSizeDesktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  /* Изображение фона заголовка сайта */
-  --backgroundImage: url('../images/cover-image.png');
-  /* Цвет рамки кнопки при навидении */
-  --borderHover: rgba(255, 0, 112, 0.4);
-  /* Убирает, добавляет надпись REC */
-  --recVisibility: visible;
 }

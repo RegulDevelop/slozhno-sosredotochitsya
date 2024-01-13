@@ -4,29 +4,28 @@
   переключая тему
 */
 
-:root.theme-dark {
-  --backgroundColorDark: #000028;
-  --backgroundAccentColorDark: #ff0070;
-  --textAccentColorDark: #000028;
-  --accentColorDark: #ff0070;
-  --titleColorDark: #db00ff;
-  --fontColorDark: #f1b2ce;
-  --backgroundImageDark: url('../images/cover-image-dark.png');
-  --borderHoverDark: rgba(255, 0, 112, 0.4);
-  --recVisibilityDark: visible;
+.page.theme_dark {
+  --backgroundColor: #000028;
+  --backgroundAccentColor: #ff0070;
+  --textAccentColor: #000028;
+  --accentColor: #ff0070;
+  --titleColor: #db00ff;
+  --fontColor: #f1b2ce;
+  --backgroundImage: url('../images/cover-image-dark.png');
+  --borderHover: rgba(255, 0, 112, 0.4);
+  --recVisibility: visible;
 }
 
-.page.theme_dark {
-  --backgroundColor: var(--backgroundColorDark, #000028);
-  --backgroundAccentColor: var(--backgroundAccentColorDark, #ff0070);
-  --textAccentColor: var(--textAccentColorDark, #000028);
-  --accentColor: var(--accentColorDark, #ff0070);
-  --titleColor: var(--titleColorDark, #db00ff);
-  --fontColor: var(--fontColorDark, #f1b2ce);
-  --backgroundImage: var(
-    --backgroundImageDark,
-    url('../images/cover-image-dark.png')
-  );
-  --borderHover: var(--borderHoverDark, rgba(255, 0, 112, 0.4));
-  --recVisibility: var(--recVisibilityDark, visible);
+@media (prefers-color-scheme: Dark) {
+  :root {
+    --backgroundColor: #000028;
+    --backgroundAccentColor: #ff0070;
+    --textAccentColor: #000028;
+    --accentColor: #ff0070;
+    --titleColor: #db00ff;
+    --fontColor: #f1b2ce;
+    --backgroundImage: url('../images/cover-image-dark.png');
+    --borderHover: rgba(255, 0, 112, 0.4);
+    --recVisibility: visible;
+  }
 }
